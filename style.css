@@ -43,6 +43,10 @@ h2 {
     cursor: pointer;
 }
 
+.btn:hover {
+    background: #468486;
+}
+
 section {
     padding: 40px 0;
     text-align: center;
@@ -65,4 +69,3 @@ footer {
     text-align: center;
     color: #868686;
 }
-
