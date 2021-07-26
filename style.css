@@ -20,16 +20,17 @@ section {
     color: #000000;
 }
 
+.features {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.quote {
+    background-color: #FFFFFF;
+    color: #000000;
+}
 
 /* 
-.features {
-  background: #FFFFFF;
-  color: #000000;
-}
-.quote {
-  background:#549DA0;
-  color:#FFFFFF;
-}
 footer {
   background: #353535;
   padding: 32px 0;
