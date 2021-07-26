@@ -1,5 +1,9 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,800,300);
 
+html {
+    font-size: 16px;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -50,11 +54,10 @@ h2 {
 section {
     padding: 40px 0;
     text-align: center;
-    color: #000000;
 }
 
 .features {
-    background-color: #FFFFFF;
+    background: #FFFFFF;
     color: #000000;
 }
 
@@ -69,7 +72,7 @@ section {
 }
 
 .quote {
-    background-color: #549DA0;
+    background: #549DA0;
     color: #FFFFFF;
 }
 
@@ -95,7 +98,7 @@ blockquote cite::before {
 }
 
 footer {
-    background-color: #353535;
+    background: #353535;
     padding: 32px 0;
     text-align: center;
     color: #868686;
@@ -124,7 +127,6 @@ footer li a:hover {
 }
 
 
-/* *************sub menu added here************** */
 
 .submenu {
     left: 50%;
@@ -134,7 +136,8 @@ footer li a:hover {
     background-color: #549DA0;
     min-width: 160px;
     border-radius: 5px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    display: none;
 }
 
 .submenu a {
@@ -148,13 +151,15 @@ footer li a:hover {
     background-color: #468486;
 }
 
-/* *************sub menu finished here************** */
 
 
-
-/* *** Now we are making our webpage responsive with @media query*** */
 
 @media screen and (max-width: 480px) {
+
+    .btn {
+        display: block;
+        font-size: 1.125rem;
+    }
 
     h1 {
         font-size: 2rem;
@@ -162,11 +167,6 @@ footer li a:hover {
     }
 
     h2 {
-        font-size: 1.125rem;
-    }
-
-    .btn {
-        display: block;
         font-size: 1.125rem;
     }
 
@@ -218,9 +218,3 @@ footer li a:hover {
         position: relative;
     }
 }
-
-/* .submenu {
-        width: 100%;
-        position: relative;
-    } */
-
