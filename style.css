@@ -58,6 +58,22 @@ section {
     color: #000000;
 }
 
+.feature {
+    width: 32%;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.feature img {
+    width: 40%;
+}
+
+/* 
+.quote {
+    background:#549DA0;
+    color:#FFFFFF;
+} */
+
 .quote {
     background-color: #FFFFFF;
     color: #000000;
