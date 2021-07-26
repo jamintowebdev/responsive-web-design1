@@ -122,3 +122,10 @@ footer li a {
 footer li a:hover {
     color: white;
 }
+
+/* Now we are making our webpage responsive with @media query*/
+
+@media screen and (max-width: 480px) {
+    
+}
+
