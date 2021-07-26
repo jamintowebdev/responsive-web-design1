@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    background-color: aqua;
+    width: 120px;
+    margin-left: 560px;
+    padding: 20px;
+    border: 2px solid blue;
+    border-radius: 10px 50px;
+    color: coral;
+    box-shadow: 10px 5px 5px turquoise;
+    text-shadow: 2px 2px;
+}
+
+p {
+    text-align: center;
+    background-color: aqua;
+    width: 700px;
+    margin: 40px;
+    height: 50px;
+    line-height: 32px;
+    background: #fdaeae;
+    font-style: italic;
+    font-weight: 700;
+    border-radius: 10px 50px;
+    box-shadow: 10px 5px 5px turquoise;
+}
+
+span {
+    font-size: 30px;
+}
+.container {
+    display: flex;
+    align-items: stretch;
+}
+
+.container div {
+    background-color:red;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    flex: 1;
+}
+
