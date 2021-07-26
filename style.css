@@ -211,5 +211,16 @@ footer li a:hover {
         margin: 5px 0;
     }
 
+    /* *******sub menu added media query here*********** */
+
+    .submenu {
+        width: 100%;
+        position: relative;
+    }
 }
+
+/* .submenu {
+        width: 100%;
+        position: relative;
+    } */
 
