@@ -14,11 +14,14 @@ header {
     text-align: center;
 }
 
-/* 
 section {
-  padding: 40px 0;
-  text-align: center;
+    padding: 40px 0;
+    text-align: center;
+    color: #000000;
 }
+
+
+/* 
 .features {
   background: #FFFFFF;
   color: #000000;
